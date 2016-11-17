@@ -15,7 +15,7 @@ balancd_car project base on stm32
 
 -----
 ### 项目实现
-1. -小车的驱动：初始化定时器TIM2，设定装载值，设置TIM2的crr1、crr，使对应管脚产生zhanfengbi占空比%60的pwm波
+1. -小车的驱动：初始化定时器TIM2，设定装载值，设置TIM2的crr1、crr，使对应管脚产生zhanfengbi占空比60%的pwm波
    -小车的控制：通过控制相应管教的输出状态，控制小车的运行状态
 2. -初始化WiFi模块：初始化串口3，打开串口中断，
    -运行wifi模块，打开sever服务：给CH_PD管脚高电平，启动WiFi模块，t添加延时（很重要），调用wifi初始化函数通过串口向wifi模块发送命令启动server服务
